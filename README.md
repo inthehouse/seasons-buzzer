@@ -1,4 +1,4 @@
 #no need to do much.
 
-npm install
+npm install \n
 npm start
