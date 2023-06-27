@@ -1,5 +1,8 @@
-#no need to do much.
+# Don't need to do much
 
-npm install
 
-npm start
+just do the following
+
+
+### `npm install`
+### `npm start`
