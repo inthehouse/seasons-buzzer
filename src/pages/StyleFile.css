@@ -18,10 +18,6 @@
     overflow: hidden;
 }
 
-.quarter {
-    cursor: pointer;
-}
-
 .indicator {
     display: flex;
     justify-content: center;
@@ -47,20 +43,4 @@
     margin-top: 20px;
     font-size: 24px;
     font-weight: bold;
-}
-
-.spring {
-    background-color: #93c700;
-}
-
-.summer {
-    background-color: #ffc801;
-}
-
-.autumn {
-    background-color: #ff530d;
-}
-
-.winter {
-    background-color: #0e99da;
 }

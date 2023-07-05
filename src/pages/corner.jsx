@@ -8,14 +8,10 @@ const Corner = ({ season, isActive, onClick }) => {
         Winter: '#0E99DA',
     };
 
-    const cornerStyle = {
-        backgroundColor: isActive ? colors[season] : '#929292',
-    };
-
     return (
         <div
             className={`corner ${isActive ? 'active' : 'inactive'}`}
-            style={cornerStyle}
+            style={{ backgroundColor: isActive ? colors[season] : '#929292' }}
             onClick={onClick}
         ></div>
     );
